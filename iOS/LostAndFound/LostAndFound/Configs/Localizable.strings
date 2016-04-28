@@ -1,0 +1,11 @@
+/* 
+ Localizable.strings
+ FangPinHui
+ Created by Marike Jave on 14-9-5.
+ Copyright (c) 2014年 Marike Jave. All rights reserved.
+ */
+"0" = "网络连接超时";
+"1" = "服务器连接失败";
+"2" = "服务器连接超时";
+"5" = "链接错误";
+"200" = "请求成功";

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  
+  <context-param>
+	    <param-name>webAppRootKey</param-name>
+	    <param-value>com.laf.root</param-value>
+  </context-param>
+  
+  <context-param>
+    <param-name>log4jConfigLocation</param-name>
+    <param-value>classpath:log4j.properties</param-value>
+  </context-param>
+  
+  <context-param>
+    <param-name>log4jRefreshInterval</param-name>
+    <param-value>60000</param-value>
+  </context-param>
+  
+  <listener>
+    <listener-class>
+    	org.springframework.web.util.Log4jConfigListener
+    </listener-class>
+  </listener>
+  
+  <listener>
+    <description>Introspector缓存清除监听器</description>
+    <listener-class>org.springframework.web.util.IntrospectorCleanupListener</listener-class>
+  </listener>
+  
+  <listener>
+    <description>request监听器</description>
+    <listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
+  </listener>
+  
+  <context-param>
+    <param-name>contextConfigLocation</param-name>
+    <param-value>./WEB-INF/applicationContext.xml</param-value>
+  </context-param>
+  
+  <listener>
+    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
+  <listener>  
+       <listener-class>com.laf.common.listener.ApplicationListener</listener-class>  
+  </listener>
+  
+  <filter>
+    <filter-name>characterEncodingFilter</filter-name>
+    <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+    
+    <init-param>
+      <param-name>encoding</param-name>
+      <param-value>UTF-8</param-value>
+    </init-param>
+    
+    <init-param>
+      <param-name>forceEncoding</param-name>
+      <param-value>true</param-value>
+    </init-param>
+  </filter>
+  <filter-mapping>
+    <filter-name>characterEncodingFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  
+  <servlet>
+    <servlet-name>getInterfaces</servlet-name>
+    <servlet-class>com.laf.test.GetInterfaces</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getInterfaces</servlet-name>
+    <url-pattern>/getInterfaces</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>testInterface</servlet-name>
+    <servlet-class>com.laf.test.TestInterface</servlet-class>
+  </servlet>
+  <servlet-mapping>  
+  	<servlet-name>testInterface</servlet-name>
+    <url-pattern>/testInterface</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>getParamsString</servlet-name>
+    <servlet-class>com.laf.test.GetParamsStringsAjax</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getParamsString</servlet-name>
+    <url-pattern>/getParamsString</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>MainServlet</servlet-name>
+    <servlet-class>com.laf.servlet.MainServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MainServlet</servlet-name>
+    <url-pattern>/server</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>GetUvk</servlet-name>
+    <servlet-class>com.laf.test.GetUvk</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetUvk</servlet-name>
+    <url-pattern>/uvk</url-pattern>
+  </servlet-mapping>
+  
+  <!-- <servlet>
+    <servlet-name>DetailJSPServlet</servlet-name>
+    <servlet-class>com.laf.servlet.DetailJSPServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DetailJSPServlet</servlet-name>
+    <url-pattern>/detail</url-pattern>
+  </servlet-mapping> -->
+    
+  <error-page>
+	<error-code>404</error-code>
+	<location>/404/web/error.html</location>
+  </error-page>
+	
+  <error-page>
+	<error-code>500</error-code>
+	<location>/404/web/error.html</location>
+  </error-page>
+</web-app>

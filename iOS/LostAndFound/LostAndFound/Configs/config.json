@@ -1,0 +1,18 @@
+{
+    "debug_url": "http://192.168.137.18:8088/laf/server",
+    "release_url": "http://idev.iwoce.com/laf/server",
+    "debug_upload_url":"http://192.168.137.18:8088/laf/upload",
+    "release_upload_url":"http://idev.iwoce.com/laf/upload",
+    "debug_video_url":"http://192.168.137.18:8088/laf/video",
+    "release_video_url":"http://idev.iwoce.com/laf/video",
+    "debug_image_host": "",
+    "release_image_host": "",
+    "debug_image_url":"http://192.168.137.18:8088/fileserver/image",
+    "release_image_url":"http://idev.iwoce.com/fileserver/image",
+    "debug_file_url":"http://192.168.137.18:8088/fileserver/file",
+    "release_file_url":"http://idev.iwoce.com/fileserver/file",
+    "debug_host":"",
+    "release_host":"",
+    "debug_port":1999,
+    "release_port":1999
+}

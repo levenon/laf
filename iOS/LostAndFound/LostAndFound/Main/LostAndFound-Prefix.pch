@@ -1,0 +1,29 @@
+//
+//  LostAndFound-Prefix.pch
+//  LostAndFound
+//
+//  Created by Marike Jave on 15/12/13.
+//  Copyright © 2015年 Marike Jave. All rights reserved.
+//
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "XLFViewControllerAnimationKit.h"
+#import "XLFBaseModelKit.h"
+#import "XLFCommonKit.h"
+#import "ASIKit.h"
+#import "XLFBaseViewControllerKit.h"
+#import "XLFKeyboardManagerKit.h"
+#import "LFConfigManager.h"
+#import "LFConstants.h"
+#import "NSObject+LFHttpRequestManager.h"
+#import "Masonry.h"
+
+#endif

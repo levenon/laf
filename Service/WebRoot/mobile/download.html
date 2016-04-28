@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!--[if IE 7]> <html lang="en" class="ie7"> <![endif]-->
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+<title>得失</title>
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta name="keywords" content="得失 寻物启事 失物招领">
+<meta name="description" content="得失 发布寻物启事和失物招领告示，帮主失主找回失物，帮主得主找到失主，传递爱心，从我做起，让公益蔓延">
+
+<meta property="og:type" content="webpage">
+<meta property="og:url" content="http://idev.iwoce.com">
+<meta property="og:title" content="得失">
+<meta property="og:description" content="得失 发布寻物启事和失物招领告示，帮主失主找回失物，帮主得主找到失主，传递爱心，从我做起，让公益蔓延">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="得失">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+<link rel="shortcut icon" href="./images/appdownload/favicon.ico" />
+
+<!-- CSS Global Compulsory-->
+<link rel="stylesheet" href="../css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/style.css" />
+
+<!-- CSS Implementing Plugins -->
+<link rel="stylesheet" href="../css/line-icons.css">
+<link rel="stylesheet" href="../css/font-awesome.min.css">
+<link rel="stylesheet" href="../css/flexslider.css">
+<link rel="stylesheet" href="../css/jquery.bxslider.css">
+<link rel="stylesheet" href="../css/horizontal-parallax.css">
+
+<!-- CSS Theme -->
+<link rel="stylesheet" href="css/default.css" id="style_color">
+
+<!-- CSS Customization -->
+<link rel="stylesheet" href="css/custom.css">
+<script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="../js/app-download.js"></script>
+
+<style type="text/css">
+.black_overlay {
+	display: none;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index: 1001;
+	-moz-opacity: 0.8;
+	opacity: .80;
+	filter: alpha(opacity = 80);
+}
+</style>
+</head>
+
+<body>
+<div class="black_overlay" onclick="closeGuide();">
+    <div style="text-align: right; cursor: default; padding-right: 15px; padding-top: 15px;">
+        <img src="../images/guide.png" width="80%"/>
+    </div>
+</div>
+	<!--=== Breadcrumbs ===-->
+	<div class="row-fluid breadcrumbs margin-bottom-20">
+		<div class="container">
+			<h1 class="pull-left">得失</h1>
+			<ul class="pull-right breadcrumb">
+				<li>版本：1.0.0</li>
+			</ul>
+		</div>
+		<!--/container-->
+	</div>
+	<!--/breadcrumbs-->
+	<!--=== End Breadcrumbs ===-->
+
+
+	<!--=== Content Part ===-->
+	<div class="container content">
+
+		<div class="view row">
+			<div class="span12" style="text-align:center;">
+				<a href="javascript:downloadApplication();" target="_blank"> <img src="../images/appdownload/appicon108.png" class="appicon" /> </a>
+				<div></div>
+			</div>
+		</div>
+
+		<div id="" class="view row" style="margin-top:30px;">
+
+			<div class="span12 margin-bottom-20" style="text-align:center;">
+				<div class="spinner">
+					<div id="showtext">正在安装，请按 Home 键在桌面查看</div>
+					<div class="loading"></div>
+					<a href="javascript:downloadApplication();" id="down_load" class="btn-u btn-u-lg" target="_blank"><i class="fa fa-download"></i> 点击安装</a>
+				</div>
+
+			</div>
+
+			<div class="span12" style="text-align:center;">
+				<span class="label label-info">适用于iOS设备</span>
+			</div>
+		</div>
+
+		<hr class="devider devider-dotted">
+
+		<div id="" class="view row margin-bottom-30">
+			<div class="span12" style="text-align:center;">
+				或者用手机扫描下面的二维码安装 <br /> <br /> <img src="../images/appdownload/qrcode_appstore.png" />
+			</div>
+		</div>
+	</div>
+	<!--/container-->
+	<!--=== End Content Part ===-->
+	<!--=== Copyright ===-->
+	<div class="copyright">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8  col-xs-12 col-md-6 col-sm-6 text-left">
+					本页面由 <a href="http://idev.iwoce.com">得失</a> 提供
+				</div>
+			</div>
+			<!--/row-fluid-->
+		</div>
+		<!--/container-->
+	</div>
+
+	<script>
+		downloadApplication();
+	</script>
+
+</body>
+</html>
+

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>startPoints</key>
+        <array>
+            <string>{10,0}</string>
+            <string>{10,30}</string>
+            <string>{20,30}</string>
+            
+            <string>{40,0}</string>
+            <string>{35,0}</string>
+            <string>{30,9.5}</string>
+            <string>{30,20}</string>
+            <string>{35,30}</string>
+            <string>{40,30}</string>
+            <string>{45,20.5}</string>
+            <string>{45,10}</string>
+            
+            <string>{70,4}</string>
+            <string>{65,0}</string>
+            <string>{60,0}</string>
+            <string>{55,4.5}</string>
+            <string>{55,10}</string>
+            <string>{59.5,15}</string>
+            <string>{65,15}</string>
+            <string>{70,19.5}</string>
+            <string>{70,25}</string>
+            <string>{65,30}</string>
+            <string>{60,30}</string>
+<!--            <string>{55,25}</string>-->
+
+            <string>{80,2}</string>
+            <string>{83,0}</string>
+            <string>{98,0}</string>
+<!--            <string>{101,2}</string>-->
+            <string>{90,1}</string>
+<!--            <string>{90,30}</string>-->
+            <string>{91,1}</string>
+<!--            <string>{91,30}</string>-->
+            <string>{88,30}</string>
+<!--            <string>{93,30}</string>-->
+        </array>
+        <key>endPoints</key>
+        <array>
+            <string>{10,30}</string>
+            <string>{20,30}</string>
+            <string>{21,29}</string>
+            
+            <string>{35,0}</string>
+            <string>{30,10}</string>
+            <string>{30,20.5}</string>
+            <string>{35,30}</string>
+            <string>{40,30}</string>
+            <string>{45,20}</string>
+            <string>{45,9.5}</string>
+            <string>{40,0}</string>
+            
+            <string>{65,0}</string>
+            <string>{60,0}</string>
+            <string>{55,5}</string>
+            <string>{55,10.5}</string>
+            <string>{60,15}</string>
+            <string>{65.5,15}</string>
+            <string>{70,20}</string>
+            <string>{70,25.5}</string>
+            <string>{65,30}</string>
+            <string>{60,30}</string>
+            <string>{55,25}</string>
+<!--            <string>{70,4}</string>-->
+
+            <string>{83,0}</string>
+            <string>{98,0}</string>
+            <string>{101,2}</string>
+<!--            <string>{90,1}</string>-->
+            <string>{90,30}</string>
+<!--            <string>{91,1}</string>-->
+            <string>{91,30}</string>
+<!--            <string>{88,30}</string>-->
+            <string>{93,30}</string>
+        </array>
+    </dict>
+</plist>

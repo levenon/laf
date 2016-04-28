@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_loading_seal" translatesAutoresizingMaskIntoConstraints="NO" id="cch-vH-vZv">
+                                <rect key="frame" x="308" y="490" width="55" height="55"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@Copyright 得失" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ll-5V-mA6">
+                                <rect key="frame" x="149.5" y="710" width="115.5" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_loading_logo" translatesAutoresizingMaskIntoConstraints="NO" id="D1R-Vs-8Uv">
+                                <rect key="frame" x="155" y="138" width="104" height="294"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="D1R-Vs-8Uv" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-83" id="Azh-7w-jhW"/>
+                            <constraint firstItem="3Ll-5V-mA6" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Fb8-s3-4WE"/>
+                            <constraint firstItem="D1R-Vs-8Uv" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="WLt-Ei-7jg"/>
+                            <constraint firstItem="cch-vH-vZv" firstAttribute="top" secondItem="D1R-Vs-8Uv" secondAttribute="bottom" constant="58" id="WSW-qC-VDM"/>
+                            <constraint firstItem="cch-vH-vZv" firstAttribute="leading" secondItem="D1R-Vs-8Uv" secondAttribute="trailing" constant="49" id="iGS-fS-7fm"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="3Ll-5V-mA6" secondAttribute="bottom" constant="8" id="pCT-br-YR2"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="img_loading_logo" width="104" height="294"/>
+        <image name="img_loading_seal" width="55" height="55"/>
+    </resources>
+</document>
