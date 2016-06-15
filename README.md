@@ -6,8 +6,6 @@ open source application named "得失"
 
 开源代码共包括 客户端(iOS), 服务器(JAVA + TOMCAT + MYSQL)，文件服务器(JAVA + TOMCAT + MYSQL)
 
-公益项目，不为利益，
-
 没有用到很高深的技术，
 
 只是给大家分享一下后台+客户端的完整项目，
