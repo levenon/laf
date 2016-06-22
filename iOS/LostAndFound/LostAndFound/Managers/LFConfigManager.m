@@ -95,20 +95,19 @@
 }
 
 - (NSDictionary *)configuration{
-    
     return [@"{\n\
-            \"debug_url\": \"http://idev.iwoce.com/laf/server\",\n             \
-            \"release_url\": \"http://idev.iwoce.com/laf/server\",\n                \
-            \"debug_upload_url\":\"http://idev.iwoce.com/laf/upload\",\n       \
-            \"release_upload_url\":\"http://idev.iwoce.com/laf/upload\",\n          \
-            \"debug_video_url\":\"http://idev.iwoce.com/laf/video\",\n         \
-            \"release_video_url\":\"http://idev.iwoce.com/laf/video\",\n            \
+            \"debug_url\": \"     SERVER   \",\n             \
+            \"release_url\": \"     SERVER   \",\n                \
+            \"debug_upload_url\":\"     UPLOAD_SERVER   \",\n       \
+            \"release_upload_url\":\"     UPLOAD_SERVER   \",\n          \
+            \"debug_video_url\":\"     SERVER   \",\n         \
+            \"release_video_url\":\"     SERVER   \",\n            \
             \"debug_image_host\": \"\",\n                                           \
             \"release_image_host\": \"\",\n                                         \
-            \"debug_image_url\":\"http://idev.iwoce.com/fileserver/image\",\n  \
-            \"release_image_url\":\"http://idev.iwoce.com/fileserver/image\",\n     \
-            \"debug_file_url\":\"http://idev.iwoce.com/fileserver/file\",\n    \
-            \"release_file_url\":\"http://idev.iwoce.com/fileserver/file\",\n       \
+            \"debug_image_url\":\"     IMAGE_SERVER   \",\n  \
+            \"release_image_url\":\"     IMAGE_SERVER   \",\n     \
+            \"debug_file_url\":\"     FILE_SERVER   \",\n    \
+            \"release_file_url\":\"     FILE_SERVER   \",\n       \
             \"debug_host\":\"\",\n                                                  \
             \"release_host\":\"\",\n                                                \
             \"debug_port\":1999,\n                                                  \

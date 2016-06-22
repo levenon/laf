@@ -369,7 +369,7 @@ NSString * const LFLocationManagerLocationInfoArchive = @"com.archive.location";
         
         [[NSNotificationCenter defaultCenter] addObserver:self
                                                  selector:@selector(didNotificateNetworkStatusChanged:)
-                                                     name:kASIReachabilityChangedNotification
+                                                     name:kReachabilityChangedNotification
                                                    object:nil];
         
         if ([self evEnableLocateAddree]) {

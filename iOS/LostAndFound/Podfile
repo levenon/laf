@@ -4,6 +4,8 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 inhibit_all_warnings!
 
+target "LostAndFound" do
+
 pod 'SDWebImage'
 pod 'Masonry'
 pod 'XLFBaseModelKit', :git => 'https://github.com/MarkeJave/XLFBaseModelKit.git', :tag => '1.0.0'
@@ -13,3 +15,5 @@ pod 'XLFBaseHttpRequestKit', :git => 'https://github.com/MarkeJave/XLFBaseHttpRe
 pod 'XLFKeyboardManagerKit', :git => 'https://github.com/MarkeJave/XLFKeyboardManagerKit.git', :tag => '1.0.0'
 pod 'XLFCommonKit', :git => 'https://github.com/MarkeJave/XLFCommonKit.git', :tag => '1.0.1'
 pod 'XLFViewControllerAnimationKit', :git => 'https://github.com/MarkeJave/XLFViewControllerAnimationKit.git', :tag => '1.0.0'
+
+end

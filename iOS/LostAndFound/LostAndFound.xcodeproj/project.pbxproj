@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E4A9F8462BB36758213D034 /* libPods-LostAndFound.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 684DC206D71CF7D4C81638A3 /* libPods-LostAndFound.a */; };
 		330801151C26F30200C0E505 /* LFLocationDistributeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 330801141C26F30200C0E505 /* LFLocationDistributeVC.m */; };
 		3314C2B51C79E4B700625424 /* LFCommonImagesSelectorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3314C2B41C79E4B700625424 /* LFCommonImagesSelectorVC.m */; };
 		3314C2B81C79E6DB00625424 /* LFCommonImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3314C2B71C79E6DB00625424 /* LFCommonImageCell.m */; };
@@ -200,15 +201,6 @@
 		B39359A61C9909D500373809 /* FOUND.plist in Resources */ = {isa = PBXBuildFile; fileRef = B393599E1C9909D500373809 /* FOUND.plist */; };
 		B39359A81C9909D500373809 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B39359A01C9909D500373809 /* Localizable.strings */; };
 		B39359A91C9909D500373809 /* LOST.plist in Resources */ = {isa = PBXBuildFile; fileRef = B39359A11C9909D500373809 /* LOST.plist */; };
-		B3B8CFE31CBCA3A600EEB710 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B8CFE21CBCA3A600EEB710 /* libPods.a */; };
-		B3B8CFEE1CBCA3CE00EEB710 /* libASIKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B8CFE61CBCA3CE00EEB710 /* libASIKit.a */; };
-		B3B8CFEF1CBCA3CE00EEB710 /* libMasonry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B8CFE71CBCA3CE00EEB710 /* libMasonry.a */; };
-		B3B8CFF01CBCA3CE00EEB710 /* libSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B8CFE81CBCA3CE00EEB710 /* libSDWebImage.a */; };
-		B3B8CFF11CBCA3CE00EEB710 /* libXLFBaseHttpRequestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B8CFE91CBCA3CE00EEB710 /* libXLFBaseHttpRequestKit.a */; };
-		B3B8CFF21CBCA3CE00EEB710 /* libXLFBaseModelKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B8CFEA1CBCA3CE00EEB710 /* libXLFBaseModelKit.a */; };
-		B3B8CFF31CBCA3CE00EEB710 /* libXLFBaseViewControllerKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B8CFEB1CBCA3CE00EEB710 /* libXLFBaseViewControllerKit.a */; };
-		B3B8CFF41CBCA3CE00EEB710 /* libXLFKeyboardManagerKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B8CFEC1CBCA3CE00EEB710 /* libXLFKeyboardManagerKit.a */; };
-		B3B8CFF51CBCA3CE00EEB710 /* libXLFViewControllerAnimationKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B8CFED1CBCA3CE00EEB710 /* libXLFViewControllerAnimationKit.a */; };
 		B3C0361A1C2A7DAB00B96C91 /* LFCreateLostVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C036191C2A7DAB00B96C91 /* LFCreateLostVC.m */; };
 		B3C0361D1C2A7DC300B96C91 /* LFCreateFoundVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C0361C1C2A7DC300B96C91 /* LFCreateFoundVC.m */; };
 		B3C036201C2A89C200B96C91 /* LFCreateNoticeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C0361F1C2A89C200B96C91 /* LFCreateNoticeHeaderView.m */; };
@@ -216,7 +208,28 @@
 		B3C0364E1C2A9BED00B96C91 /* LFImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C0364D1C2A9BED00B96C91 /* LFImageCollectionViewCell.m */; };
 		B3C678691C9A969000E93B19 /* LFNoticeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C678681C9A969000E93B19 /* LFNoticeBase.m */; };
 		B3D8E3B21C2D044500B55DD8 /* QBAssetBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D8E3B01C2D044500B55DD8 /* QBAssetBrowserViewController.m */; };
+		B3FBDBB21D1A35320013B7CD /* PrivateAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FBDBAE1D1A338E0013B7CD /* PrivateAPI.framework */; };
+		B3FBDBBD1D1A35320013B7CD /* libASIKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FBDBB31D1A35320013B7CD /* libASIKit.a */; };
+		B3FBDBBE1D1A35320013B7CD /* libMasonry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FBDBB41D1A35320013B7CD /* libMasonry.a */; };
+		B3FBDBBF1D1A35320013B7CD /* libReachability.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FBDBB51D1A35320013B7CD /* libReachability.a */; };
+		B3FBDBC01D1A35320013B7CD /* libSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FBDBB61D1A35320013B7CD /* libSDWebImage.a */; };
+		B3FBDBC11D1A35320013B7CD /* libXLFBaseHttpRequestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FBDBB71D1A35320013B7CD /* libXLFBaseHttpRequestKit.a */; };
+		B3FBDBC21D1A35320013B7CD /* libXLFBaseModelKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FBDBB81D1A35320013B7CD /* libXLFBaseModelKit.a */; };
+		B3FBDBC31D1A35320013B7CD /* libXLFBaseViewControllerKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FBDBB91D1A35320013B7CD /* libXLFBaseViewControllerKit.a */; };
+		B3FBDBC41D1A35320013B7CD /* libXLFCommonKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FBDBBA1D1A35320013B7CD /* libXLFCommonKit.a */; };
+		B3FBDBC51D1A35320013B7CD /* libXLFKeyboardManagerKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FBDBBB1D1A35320013B7CD /* libXLFKeyboardManagerKit.a */; };
+		B3FBDBC61D1A35320013B7CD /* libXLFViewControllerAnimationKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FBDBBC1D1A35320013B7CD /* libXLFViewControllerAnimationKit.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3FBDBAD1D1A338E0013B7CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3FBDBA91D1A338E0013B7CD /* PrivateAPI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B38CBD3D1CA39CF30088A29D;
+			remoteInfo = PrivateAPI;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		B38CBD211CA395B60088A29D /* Embed Frameworks */ = {
@@ -232,6 +245,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		117205E63AA9AEC7234AA94E /* Pods-LostAndFound.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LostAndFound.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LostAndFound/Pods-LostAndFound.debug.xcconfig"; sourceTree = "<group>"; };
 		22143DC24A508832C3D6863E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		330801131C26F30200C0E505 /* LFLocationDistributeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFLocationDistributeVC.h; sourceTree = "<group>"; };
 		330801141C26F30200C0E505 /* LFLocationDistributeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFLocationDistributeVC.m; sourceTree = "<group>"; };
@@ -543,6 +557,8 @@
 		33EB244D1C256D8D0026D45F /* LFImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFImageView.h; sourceTree = "<group>"; };
 		33EB244E1C256D8D0026D45F /* LFImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFImageView.m; sourceTree = "<group>"; };
 		636186AFB2DFFD160567211F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		684DC206D71CF7D4C81638A3 /* libPods-LostAndFound.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LostAndFound.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1FB047E9FDB96ACE1E43109 /* Pods-LostAndFound.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LostAndFound.release.xcconfig"; path = "Pods/Target Support Files/Pods-LostAndFound/Pods-LostAndFound.release.xcconfig"; sourceTree = "<group>"; };
 		B30F40A61CA2862A00121855 /* LFNoticesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFNoticesVC.h; sourceTree = "<group>"; };
 		B30F40A71CA2862A00121855 /* LFNoticesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFNoticesVC.m; sourceTree = "<group>"; };
 		B30F40A91CA2864700121855 /* LFMyNoticesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFMyNoticesVC.h; sourceTree = "<group>"; };
@@ -582,15 +598,6 @@
 		B393599E1C9909D500373809 /* FOUND.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FOUND.plist; sourceTree = "<group>"; };
 		B39359A01C9909D500373809 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		B39359A11C9909D500373809 /* LOST.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LOST.plist; sourceTree = "<group>"; };
-		B3B8CFE21CBCA3A600EEB710 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "../../../../../../../Users/marikejave/Library/Developer/Xcode/DerivedData/LostAndFound-eegduayvzjmefdfgtramidcnoebl/Build/Products/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
-		B3B8CFE61CBCA3CE00EEB710 /* libASIKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libASIKit.a; path = "../../../../../../../Users/marikejave/Library/Developer/Xcode/DerivedData/LostAndFound-eegduayvzjmefdfgtramidcnoebl/Build/Products/Debug-iphoneos/libASIKit.a"; sourceTree = "<group>"; };
-		B3B8CFE71CBCA3CE00EEB710 /* libMasonry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMasonry.a; path = "../../../../../../../Users/marikejave/Library/Developer/Xcode/DerivedData/LostAndFound-eegduayvzjmefdfgtramidcnoebl/Build/Products/Debug-iphoneos/libMasonry.a"; sourceTree = "<group>"; };
-		B3B8CFE81CBCA3CE00EEB710 /* libSDWebImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDWebImage.a; path = "../../../../../../../Users/marikejave/Library/Developer/Xcode/DerivedData/LostAndFound-eegduayvzjmefdfgtramidcnoebl/Build/Products/Debug-iphoneos/libSDWebImage.a"; sourceTree = "<group>"; };
-		B3B8CFE91CBCA3CE00EEB710 /* libXLFBaseHttpRequestKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXLFBaseHttpRequestKit.a; path = "../../../../../../../Users/marikejave/Library/Developer/Xcode/DerivedData/LostAndFound-eegduayvzjmefdfgtramidcnoebl/Build/Products/Debug-iphoneos/libXLFBaseHttpRequestKit.a"; sourceTree = "<group>"; };
-		B3B8CFEA1CBCA3CE00EEB710 /* libXLFBaseModelKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXLFBaseModelKit.a; path = "../../../../../../../Users/marikejave/Library/Developer/Xcode/DerivedData/LostAndFound-eegduayvzjmefdfgtramidcnoebl/Build/Products/Debug-iphoneos/libXLFBaseModelKit.a"; sourceTree = "<group>"; };
-		B3B8CFEB1CBCA3CE00EEB710 /* libXLFBaseViewControllerKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXLFBaseViewControllerKit.a; path = "../../../../../../../Users/marikejave/Library/Developer/Xcode/DerivedData/LostAndFound-eegduayvzjmefdfgtramidcnoebl/Build/Products/Debug-iphoneos/libXLFBaseViewControllerKit.a"; sourceTree = "<group>"; };
-		B3B8CFEC1CBCA3CE00EEB710 /* libXLFKeyboardManagerKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXLFKeyboardManagerKit.a; path = "../../../../../../../Users/marikejave/Library/Developer/Xcode/DerivedData/LostAndFound-eegduayvzjmefdfgtramidcnoebl/Build/Products/Debug-iphoneos/libXLFKeyboardManagerKit.a"; sourceTree = "<group>"; };
-		B3B8CFED1CBCA3CE00EEB710 /* libXLFViewControllerAnimationKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXLFViewControllerAnimationKit.a; path = "../../../../../../../Users/marikejave/Library/Developer/Xcode/DerivedData/LostAndFound-eegduayvzjmefdfgtramidcnoebl/Build/Products/Debug-iphoneos/libXLFViewControllerAnimationKit.a"; sourceTree = "<group>"; };
 		B3C036181C2A7DAB00B96C91 /* LFCreateLostVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCreateLostVC.h; sourceTree = "<group>"; };
 		B3C036191C2A7DAB00B96C91 /* LFCreateLostVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCreateLostVC.m; sourceTree = "<group>"; };
 		B3C0361B1C2A7DC300B96C91 /* LFCreateFoundVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCreateFoundVC.h; sourceTree = "<group>"; };
@@ -605,6 +612,17 @@
 		B3C678681C9A969000E93B19 /* LFNoticeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFNoticeBase.m; sourceTree = "<group>"; };
 		B3D8E3B01C2D044500B55DD8 /* QBAssetBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBAssetBrowserViewController.m; sourceTree = "<group>"; };
 		B3D8E3B11C2D044500B55DD8 /* QBAssetBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBAssetBrowserViewController.h; sourceTree = "<group>"; };
+		B3FBDBA91D1A338E0013B7CD /* PrivateAPI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PrivateAPI.xcodeproj; path = ../PrivateAPI/PrivateAPI.xcodeproj; sourceTree = "<group>"; };
+		B3FBDBB31D1A35320013B7CD /* libASIKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libASIKit.a; path = "../../../../../../Users/xulinfeng/Library/Developer/Xcode/DerivedData/LostAndFound-aazmbmheunxprdbasgolljidjqij/Build/Products/Debug-iphoneos/ASIKit/libASIKit.a"; sourceTree = "<group>"; };
+		B3FBDBB41D1A35320013B7CD /* libMasonry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMasonry.a; path = "../../../../../../Users/xulinfeng/Library/Developer/Xcode/DerivedData/LostAndFound-aazmbmheunxprdbasgolljidjqij/Build/Products/Debug-iphoneos/Masonry/libMasonry.a"; sourceTree = "<group>"; };
+		B3FBDBB51D1A35320013B7CD /* libReachability.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libReachability.a; path = "../../../../../../Users/xulinfeng/Library/Developer/Xcode/DerivedData/LostAndFound-aazmbmheunxprdbasgolljidjqij/Build/Products/Debug-iphoneos/Reachability/libReachability.a"; sourceTree = "<group>"; };
+		B3FBDBB61D1A35320013B7CD /* libSDWebImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDWebImage.a; path = "../../../../../../Users/xulinfeng/Library/Developer/Xcode/DerivedData/LostAndFound-aazmbmheunxprdbasgolljidjqij/Build/Products/Debug-iphoneos/SDWebImage/libSDWebImage.a"; sourceTree = "<group>"; };
+		B3FBDBB71D1A35320013B7CD /* libXLFBaseHttpRequestKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXLFBaseHttpRequestKit.a; path = "../../../../../../Users/xulinfeng/Library/Developer/Xcode/DerivedData/LostAndFound-aazmbmheunxprdbasgolljidjqij/Build/Products/Debug-iphoneos/XLFBaseHttpRequestKit/libXLFBaseHttpRequestKit.a"; sourceTree = "<group>"; };
+		B3FBDBB81D1A35320013B7CD /* libXLFBaseModelKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXLFBaseModelKit.a; path = "../../../../../../Users/xulinfeng/Library/Developer/Xcode/DerivedData/LostAndFound-aazmbmheunxprdbasgolljidjqij/Build/Products/Debug-iphoneos/XLFBaseModelKit/libXLFBaseModelKit.a"; sourceTree = "<group>"; };
+		B3FBDBB91D1A35320013B7CD /* libXLFBaseViewControllerKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXLFBaseViewControllerKit.a; path = "../../../../../../Users/xulinfeng/Library/Developer/Xcode/DerivedData/LostAndFound-aazmbmheunxprdbasgolljidjqij/Build/Products/Debug-iphoneos/XLFBaseViewControllerKit/libXLFBaseViewControllerKit.a"; sourceTree = "<group>"; };
+		B3FBDBBA1D1A35320013B7CD /* libXLFCommonKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXLFCommonKit.a; path = "../../../../../../Users/xulinfeng/Library/Developer/Xcode/DerivedData/LostAndFound-aazmbmheunxprdbasgolljidjqij/Build/Products/Debug-iphoneos/XLFCommonKit/libXLFCommonKit.a"; sourceTree = "<group>"; };
+		B3FBDBBB1D1A35320013B7CD /* libXLFKeyboardManagerKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXLFKeyboardManagerKit.a; path = "../../../../../../Users/xulinfeng/Library/Developer/Xcode/DerivedData/LostAndFound-aazmbmheunxprdbasgolljidjqij/Build/Products/Debug-iphoneos/XLFKeyboardManagerKit/libXLFKeyboardManagerKit.a"; sourceTree = "<group>"; };
+		B3FBDBBC1D1A35320013B7CD /* libXLFViewControllerAnimationKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXLFViewControllerAnimationKit.a; path = "../../../../../../Users/xulinfeng/Library/Developer/Xcode/DerivedData/LostAndFound-aazmbmheunxprdbasgolljidjqij/Build/Products/Debug-iphoneos/XLFViewControllerAnimationKit/libXLFViewControllerAnimationKit.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -612,15 +630,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3B8CFEE1CBCA3CE00EEB710 /* libASIKit.a in Frameworks */,
-				B3B8CFEF1CBCA3CE00EEB710 /* libMasonry.a in Frameworks */,
-				B3B8CFF01CBCA3CE00EEB710 /* libSDWebImage.a in Frameworks */,
-				B3B8CFF11CBCA3CE00EEB710 /* libXLFBaseHttpRequestKit.a in Frameworks */,
-				B3B8CFF21CBCA3CE00EEB710 /* libXLFBaseModelKit.a in Frameworks */,
-				B3B8CFF31CBCA3CE00EEB710 /* libXLFBaseViewControllerKit.a in Frameworks */,
-				B3B8CFF41CBCA3CE00EEB710 /* libXLFKeyboardManagerKit.a in Frameworks */,
-				B3B8CFF51CBCA3CE00EEB710 /* libXLFViewControllerAnimationKit.a in Frameworks */,
-				B3B8CFE31CBCA3A600EEB710 /* libPods.a in Frameworks */,
+				B3FBDBBD1D1A35320013B7CD /* libASIKit.a in Frameworks */,
+				B3FBDBBE1D1A35320013B7CD /* libMasonry.a in Frameworks */,
+				B3FBDBBF1D1A35320013B7CD /* libReachability.a in Frameworks */,
+				B3FBDBC01D1A35320013B7CD /* libSDWebImage.a in Frameworks */,
+				B3FBDBC11D1A35320013B7CD /* libXLFBaseHttpRequestKit.a in Frameworks */,
+				B3FBDBC21D1A35320013B7CD /* libXLFBaseModelKit.a in Frameworks */,
+				B3FBDBC31D1A35320013B7CD /* libXLFBaseViewControllerKit.a in Frameworks */,
+				B3FBDBC41D1A35320013B7CD /* libXLFCommonKit.a in Frameworks */,
+				B3FBDBC51D1A35320013B7CD /* libXLFKeyboardManagerKit.a in Frameworks */,
+				B3FBDBC61D1A35320013B7CD /* libXLFViewControllerAnimationKit.a in Frameworks */,
+				B3FBDBB21D1A35320013B7CD /* PrivateAPI.framework in Frameworks */,
 				B36B97751CA3E7DC0098B488 /* ImageIO.framework in Frameworks */,
 				33D4729B1C1D675C002B13A8 /* libstdc++.6.0.9.tbd in Frameworks */,
 				339162D51C4FD95C00457AD4 /* JavaScriptCore.framework in Frameworks */,
@@ -669,6 +689,7 @@
 				33D472471C1D65E3002B13A8 /* libUMSocial_Sdk_4.4.a in Frameworks */,
 				33D472451C1D65E3002B13A8 /* libMobClickLibrary.a in Frameworks */,
 				33D472571C1D65E3002B13A8 /* libSocialQQ.a in Frameworks */,
+				2E4A9F8462BB36758213D034 /* libPods-LostAndFound.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -678,6 +699,7 @@
 		331C94B51C1D5C8900B27317 = {
 			isa = PBXGroup;
 			children = (
+				B3FBDBA91D1A338E0013B7CD /* PrivateAPI.xcodeproj */,
 				33D472B71C1D676A002B13A8 /* Frameworks */,
 				331C94C01C1D5C8900B27317 /* LostAndFound */,
 				331C94BF1C1D5C8900B27317 /* Products */,
@@ -1243,15 +1265,16 @@
 		33D472B71C1D676A002B13A8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B3B8CFE61CBCA3CE00EEB710 /* libASIKit.a */,
-				B3B8CFE71CBCA3CE00EEB710 /* libMasonry.a */,
-				B3B8CFE81CBCA3CE00EEB710 /* libSDWebImage.a */,
-				B3B8CFE91CBCA3CE00EEB710 /* libXLFBaseHttpRequestKit.a */,
-				B3B8CFEA1CBCA3CE00EEB710 /* libXLFBaseModelKit.a */,
-				B3B8CFEB1CBCA3CE00EEB710 /* libXLFBaseViewControllerKit.a */,
-				B3B8CFEC1CBCA3CE00EEB710 /* libXLFKeyboardManagerKit.a */,
-				B3B8CFED1CBCA3CE00EEB710 /* libXLFViewControllerAnimationKit.a */,
-				B3B8CFE21CBCA3A600EEB710 /* libPods.a */,
+				B3FBDBB31D1A35320013B7CD /* libASIKit.a */,
+				B3FBDBB41D1A35320013B7CD /* libMasonry.a */,
+				B3FBDBB51D1A35320013B7CD /* libReachability.a */,
+				B3FBDBB61D1A35320013B7CD /* libSDWebImage.a */,
+				B3FBDBB71D1A35320013B7CD /* libXLFBaseHttpRequestKit.a */,
+				B3FBDBB81D1A35320013B7CD /* libXLFBaseModelKit.a */,
+				B3FBDBB91D1A35320013B7CD /* libXLFBaseViewControllerKit.a */,
+				B3FBDBBA1D1A35320013B7CD /* libXLFCommonKit.a */,
+				B3FBDBBB1D1A35320013B7CD /* libXLFKeyboardManagerKit.a */,
+				B3FBDBBC1D1A35320013B7CD /* libXLFViewControllerAnimationKit.a */,
 				B36B97741CA3E7DC0098B488 /* ImageIO.framework */,
 				339162D41C4FD95C00457AD4 /* JavaScriptCore.framework */,
 				339162D21C4FD94400457AD4 /* libicucore.tbd */,
@@ -1278,6 +1301,7 @@
 				33D472941C1D675C002B13A8 /* CoreGraphics.framework */,
 				33D472951C1D675C002B13A8 /* UIKit.framework */,
 				33D472961C1D675C002B13A8 /* CoreFoundation.framework */,
+				684DC206D71CF7D4C81638A3 /* libPods-LostAndFound.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1330,6 +1354,8 @@
 			children = (
 				636186AFB2DFFD160567211F /* Pods.debug.xcconfig */,
 				22143DC24A508832C3D6863E /* Pods.release.xcconfig */,
+				117205E63AA9AEC7234AA94E /* Pods-LostAndFound.debug.xcconfig */,
+				A1FB047E9FDB96ACE1E43109 /* Pods-LostAndFound.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -1348,6 +1374,14 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
+		B3FBDBAA1D1A338E0013B7CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3FBDBAE1D1A338E0013B7CD /* PrivateAPI.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1355,15 +1389,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 331C94EB1C1D5C8900B27317 /* Build configuration list for PBXNativeTarget "LostAndFound" */;
 			buildPhases = (
-				2334B18EA664FC7C6DDAD5DA /* Check Pods Manifest.lock */,
+				2334B18EA664FC7C6DDAD5DA /* [CP] Check Pods Manifest.lock */,
 				331C94BA1C1D5C8900B27317 /* Sources */,
 				331C94BC1C1D5C8900B27317 /* Resources */,
 				331C94BB1C1D5C8900B27317 /* Frameworks */,
 				330CD0D91C1D7C400074CDDA /* ShellScript */,
 				33F5D33A1C2284F600A23933 /* ShellScript */,
 				B38CBD211CA395B60088A29D /* Embed Frameworks */,
-				E33CC472D462B192E9343476 /* Embed Pods Frameworks */,
-				262F4F8A3965569ACA6E208B /* Copy Pods Resources */,
+				E33CC472D462B192E9343476 /* [CP] Embed Pods Frameworks */,
+				262F4F8A3965569ACA6E208B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1386,7 +1420,7 @@
 				TargetAttributes = {
 					331C94BD1C1D5C8900B27317 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = 79E68V4GS2;
+						DevelopmentTeam = RE2JV76BF9;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -1410,12 +1444,28 @@
 			mainGroup = 331C94B51C1D5C8900B27317;
 			productRefGroup = 331C94BF1C1D5C8900B27317 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B3FBDBAA1D1A338E0013B7CD /* Products */;
+					ProjectRef = B3FBDBA91D1A338E0013B7CD /* PrivateAPI.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				331C94BD1C1D5C8900B27317 /* LostAndFound */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B3FBDBAE1D1A338E0013B7CD /* PrivateAPI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PrivateAPI.framework;
+			remoteRef = B3FBDBAD1D1A338E0013B7CD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		331C94BC1C1D5C8900B27317 /* Resources */ = {
@@ -1459,14 +1509,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2334B18EA664FC7C6DDAD5DA /* Check Pods Manifest.lock */ = {
+		2334B18EA664FC7C6DDAD5DA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1474,19 +1524,19 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		262F4F8A3965569ACA6E208B /* Copy Pods Resources */ = {
+		262F4F8A3965569ACA6E208B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LostAndFound/Pods-LostAndFound-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		330CD0D91C1D7C400074CDDA /* ShellScript */ = {
@@ -1515,19 +1565,19 @@
 			shellPath = /bin/sh;
 			shellScript = ../script/AutoIncrementBoundleVersion.sh;
 		};
-		E33CC472D462B192E9343476 /* Embed Pods Frameworks */ = {
+		E33CC472D462B192E9343476 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LostAndFound/Pods-LostAndFound-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1777,7 +1827,7 @@
 		};
 		331C94EC1C1D5C8900B27317 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 636186AFB2DFFD160567211F /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 117205E63AA9AEC7234AA94E /* Pods-LostAndFound.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchScreen;
@@ -1826,7 +1876,7 @@
 		};
 		331C94ED1C1D5C8900B27317 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22143DC24A508832C3D6863E /* Pods.release.xcconfig */;
+			baseConfigurationReference = A1FB047E9FDB96ACE1E43109 /* Pods-LostAndFound.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchScreen;

@@ -142,7 +142,7 @@ NSString *const LFUserManagerArchiveFileName = @"com.laf.userManager.archive";
 
 - (void)efRegisterNotification{
     
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didNotificateNetworkStatusChanged:) name:kASIReachabilityChangedNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didNotificateNetworkStatusChanged:) name:kReachabilityChangedNotification object:nil];
 }
 
 #pragma mark - private
